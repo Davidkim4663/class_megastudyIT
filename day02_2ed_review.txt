@@ -1,0 +1,86 @@
+* terminal & directory
+ 1. terminal directory => 윈도우 폴더
+
+<DOS: Disk Operating System> 디스크 운영 체제
+경로(path)
+C:\01_Development\00_Front-End\00_front_end(megaStudy)\workspace\front_END
+
+Unix(중,대형 컴퓨터 이상) => Linux(개인용) => 윈도우 환경에서 편리하게 사용하는 ubuntu
+/
+
+cls : terminal 초기화
+md(make directory) : 폴더 생성
+cd(change directory) : 폴더 이동
+rd(remove directory) : 폴더 삭제
+
+
+현재 위치 dir .
+현재 위치의 한 단계 이전 dir ..
+현재 위치의 두 단계 이전 dir ..\..
+현재 페이지(폴더가 많을 때) dir/p
+
+. 현재 위치에서
+.. 이전 위치
+..\..\ 이전 이전 위치
+
+
+현재 위치에서 한 단계 이동 할 때 cd 폴더
+
+현재 위치에서 두 단계 이동 할 때 cd .. -> cd 상위폴더/하위폴더
+
+대학
+학생 
+  - 국어
+  - 영어
+  - 수학  
+교수
+  - 과목
+  - 학년
+  - 학점
+
+
+// 깃 설정
+
+ DOS
+ c:/01_Development/front_end/workspace/class_megastudyIT
+
+ Linux
+ 프로젝트 위치이동
+cd C:\01_Development\front_end\workspace\class_megastudyIT
+ 1. list (ls) 
+
+ 2.  깃 설정
+  git init
+
+ 3. 깃 환경설정
+  git config user.name 'Davidkim4663'
+  git config user.email 'ip4523@naver.com'
+
+ 4. 깃 환경설정 확인
+  git config user.name
+  git config user.email
+
+ 5. 원격지(remote) repository(url) origin 
+ git remote add origin https://github.com/Davidkim4663/class_megastudyIT.git
+  
+6. 원격지(remote) repository(url) origin 확인
+  git remote -v 
+  origin  https://github.com/Davidkim4663/class_megastudyIT.git (fetch)
+  origin  https://github.com/Davidkim4663/class_megastudyIT.git (push)
+
+7. github에 푸쉬 데이터를 스테이징 처리
+  git add .
+
+8. commit
+  git commit -m '깃허브에 잘 작동 되나..'
+
+9. push 
+  git push origin master
+
+10. 배포하기(페이징)
+  메뉴 중 오른 쪽 끝에 Settings - 클릭
+  왼쪽 메뉴 중 - Pages - 클릭
+  Branch 선택 -> 마스터 선택
+  새로고침 -> 확인
+  URL
+
